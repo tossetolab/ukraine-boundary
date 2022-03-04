@@ -10,9 +10,9 @@
     },
     "layers": [
         {
-            "id": "geoBoundaries_UKR_ADM1_b7c65a2c_45ba_4869_a176_1a9cf9687b2b",
+            "id": "ukr-adm1",
             "source": "mvt",
-            "source-layer": "geoBoundaries-UKR-ADM1",
+            "source-layer": "geoBoundariesUKRADM1",
             "type": "line",
             "paint": {
                 "line-color": "#232323",
