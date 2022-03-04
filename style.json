@@ -1,0 +1,24 @@
+{
+    "version": 8,
+    "sources": {
+        "mvt": {
+            "type": "vector",
+            "tiles": [
+                "https://tossetolab.github.io/ukraine-boundary/xyz/{z}/{x}/{y}.pbf"
+            ]
+        }
+    },
+    "layers": [
+        {
+            "id": "geoBoundaries_UKR_ADM1_b7c65a2c_45ba_4869_a176_1a9cf9687b2b",
+            "source": "mvt",
+            "source-layer": "geoBoundaries-UKR-ADM1",
+            "type": "line",
+            "paint": {
+                "line-color": "#232323",
+                "line-width": 1,
+                "line-opacity": 1.0
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+	"tilejson": "2.0.0",
+	"id": "ukr-adm1",
+	"name": "ukr-adm1.mbtiles",
+	"format": "pbf",
+	"maxzoom": 14,
+	"minzoom": 0,
+	"attribution": "Humanitarian Data Exchange",
+	"description": "HDX Ukraine Adm1",
+	"tiles": [
+		"https://tossetolab.github.io/ukraine-boundary/xyz/{z}/{x}/{y}.pbf"
+	],
+	"vector_layers": [
+		{
+			"id": "geoBoundariesUKRADM1",
+			"fields": {
+				"Level": "String",
+				"shapeGroup": "String",
+				"shapeID": "String",
+				"shapeISO": "String",
+				"shapeName": "String",
+				"shapeType": "String"
+			},
+			"maxzoom": 14,
+			"minzoom": 0,
+			"description": ""
+		}
+	]	
+}
